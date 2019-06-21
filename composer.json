@@ -1,0 +1,21 @@
+{
+  "name": "maksi/maxcore",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maksisoft",
+      "email": "info@maksisoft.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maxcore\\": "library"
+    }
+  },
+  "minimum-stability": "dev"
+}
