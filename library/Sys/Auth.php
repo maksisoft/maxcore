@@ -100,7 +100,6 @@ class Auth extends Session {
         $this->set("panel_login", true);
         $this->set("panel_user_id", $userData['id']);
         $this->set("panel_username", $userData['name']);
-
         $this->set("account_no", $account_no);
         $this->set("panel_user_key", $hash);
         

@@ -28,15 +28,6 @@ class Controller {
             
             self::$account_no = $auth->getAccountNo();
             
-            self::$account_details = $auth->getAccountDetails();
-            
-            if(self::$account_details["durum"] == 0){
-
-                 echo $this->view("error/disable_account");
-                
-                die();
-                
-            }
 
         }
         
