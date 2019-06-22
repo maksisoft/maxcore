@@ -75,10 +75,10 @@ class View {
         $mediaFunction = new \Twig_Function('media', function ($mediaName, $mediaName2 = NULL) {
 
             if ($mediaName2 == NULL) {
-                return App::getConfig("url") . "/public/media/" . self::$account_no . "/" . $mediaName;
+                return App::getConfig("url") . "/public/media/"  . $mediaName;
             } else {
 
-                return App::getConfig("url") . "/public/media/" . self::$account_no . "/" . $mediaName . $mediaName2;
+                return App::getConfig("url") . "/public/media/" .  $mediaName . $mediaName2;
             }
         });
 
